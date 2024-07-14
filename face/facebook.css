@@ -1,0 +1,96 @@
+/* facebook.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.login-box {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-box h1 {
+    color: #1877f2;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.login-box button {
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-box button[type="submit"] {
+    background-color: #1877f2;
+    color: white;
+}
+
+.login-box .forgot-password {
+    color: #1877f2;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.login-box .forgot-password:hover {
+    text-decoration: underline;
+}
+
+.login-box hr {
+    margin: 20px 0;
+}
+
+.login-box .create-account {
+    background-color: #42b72a;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .login-box {
+        padding: 20px;
+    }
+
+    .login-box h1 {
+        font-size: 36px;
+    }
+
+    .login-box input, .login-box button {
+        font-size: 14px;
+    }
+}
